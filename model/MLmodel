@@ -1,0 +1,20 @@
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.12.10
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.core.Booster
+    model_format: ubj
+    xgb_version: 3.4.1
+mlflow_version: 3.17.0
+model_id: null
+model_size_bytes: 277193
+model_uuid: a8bb1d1bc69b4d2d8cb4ffee1835ee34
+prompts: null
+utc_time_created: '2026-10-09 13:22:06.146744'
